@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+
+Redirect 301 ^/$ https://www.demandstack.io/pages/services
+Redirect 301 /page/content-marketing https://www.demandstack.io/services/seo-services
+Redirect 301 /page/email-marketing/ https://www.demandstack.io/services/account-based-marketing
+Redirect 301 /page/web-design-and-development https://www.demandstack.io/services/seo-services
